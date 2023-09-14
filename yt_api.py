@@ -158,23 +158,26 @@ if __name__ == "__main__":
 
     #   VISUALIZING: VIEW DISTRIBUTION PER VIDEO
     sns.violinplot(vinfo['viewCount'])
-    #plt.show()
+    plt.show()
 
     #   VISUALIZING: VIEWS V. LIKES AND COMMENTS
     fig, ax = plt.subplots(1,2)
     sns.scatterplot(data=vinfo, x='commentCount', y='viewCount', ax = ax[0])
     sns.scatterplot(data=vinfo, x='likeCount', y='viewCount', ax = ax[1])
-    #plt.show()  #   both insinuate positive correlations
+    plt.show()  #   both insinuate positive correlations
 
     #   VISUALIZING: AVG VIDEO DURATION
     sns.histplot(data=vinfo, x='durationSecs', bins=30)
-    #plt.show()
+    plt.show()
 
-    #   VISUALIZING: UPLOAD SCHEDULE
+    '''
+    #    UNDER CONSTRUCTION
+    #    VISUALIZING: UPLOAD SCHEDULE
     day = pd.DataFrame(vinfo['pushblishDayName'].value_counts())
     weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
     day = day.reindex(weekdays)
     ax = day.reset_index().plot.bar(x='index', y='pushblishDayName', rot=0)
+    '''
     
 
 
