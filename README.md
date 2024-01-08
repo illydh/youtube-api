@@ -1,5 +1,7 @@
 ##  Preamble
 
+In this project, I extract data from @freeCodeCamp on YouTube with Google's YouTube Data API and create data tables from it in Python!
+
 ##  Using the YouTube Data API
 
 Before using the script, the user needs access to the YouTube Data API module with a unique key.
@@ -20,7 +22,7 @@ Here are the steps to access the API (first time):
 
 ##  Packages in-use
 
-- googleapiclient
+- google-api-client
 - pandas
 - json
 - dateutil
