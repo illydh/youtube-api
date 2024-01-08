@@ -86,11 +86,12 @@ def getVideoDetails(yt, videoIDs):
 
 if __name__ == "__main__":
 
+    ###     API_KEY
     api_key = 'AIzaSyDpm5DA0da_-QJysM8sy0nsXQbUVFPg8EA'
     nm_playlistID = 'UUuTQDPUE12sy7g1xf1LAdTA'
 
     channel_ids = [
-        'UCuTQDPUE12sy7g1xf1LAdTA'    
+        'UC1emV4A8liRs9p80CY8ElUQ'    #     @freeCodeCamp
     ]
 
     api_service_name = "youtube"
