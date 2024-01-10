@@ -40,3 +40,9 @@ To access the data of any other YouTube creator, replace the string within the a
 1. Click 'View Page Source'.
 1. From the Page Source, CTRL+f (windows) or CMD+f (mac) and highlight 'channelid'.
 1. Copy the corresponding value from this dictionary key. This is your channel ID!
+
+## Tables as of January 10, 2024
+
+![Figure_1](https://github.com/illydh/youtube-api/assets/133312266/9eb50454-5f00-46a9-8c06-2a38248165b4)
+
+![Figure_2](https://github.com/illydh/youtube-api/assets/133312266/3a11653a-b9e2-4016-b282-be62286b30b9)
