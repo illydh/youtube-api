@@ -22,7 +22,7 @@ Here are the steps to access the API (first time):
 
 ##  Packages in-use
 
-- google-api-client
+- google-api-client: make sure to install this package to use this program; ```pip install --upgrade google-api-python-client```
 - pandas
 - json
 - dateutil

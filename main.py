@@ -88,7 +88,7 @@ if __name__ == "__main__":
 
     ###     API_KEY
     api_key = 'AIzaSyDpm5DA0da_-QJysM8sy0nsXQbUVFPg8EA'
-    nm_playlistID = 'UUuTQDPUE12sy7g1xf1LAdTA'
+    nm_playlistID = 'UU1emV4A8liRs9p80CY8ElUQ'
 
     channel_ids = [
         'UC1emV4A8liRs9p80CY8ElUQ'    #     @freeCodeCamp
@@ -108,7 +108,7 @@ if __name__ == "__main__":
         id=",".join(channel_ids)
     )
     response = request.execute()
-    chans = json.dumps(response, indent = 4)       #    compiling the info in json to make it pretty
+    chans = json.dumps(response, indent = 4)       #    beautifying data by compiling the info in json
     print(chans)
     print()
 
@@ -120,7 +120,7 @@ if __name__ == "__main__":
     #   playlist items
     request = youtube.playlistItems().list(
         part="snippet,contentDetails",
-        playlistId="UUuTQDPUE12sy7g1xf1LAdTA"
+        playlistId="UU1emV4A8liRs9p80CY8ElUQ"
     )
     response = request.execute()
     pls = json.dumps(response, indent = 4)
